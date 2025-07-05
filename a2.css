@@ -1,0 +1,150 @@
+
+
+.heading{
+color:red;
+}
+.external-button {
+    background-color: green;
+} 
+
+
+
+h1{
+    text-transform: capitalize;
+}
+#box{
+    font-size: 25px;
+}
+#inner{
+    font-size:10px ;
+
+} 
+
+ul{
+    display: flex;
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    background-color:antiquewhite;
+    height: 4vw;
+    font-size: 2vw;
+    border: 2px,black,solid;
+}
+
+#st1{
+    border:2px,black,solid;
+    color: rgba(255,0,0, 0.5);
+}
+#st2{
+    border:2px,black,solid;
+    color: rgba(0,255,0, 0.5);
+}
+#st3{
+    border:2px,black,solid;
+    color: rgba(0,0,255, 0.5);
+}
+
+.flexb{
+    border: 2px,blue,solid;
+    width: 270px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+} 
+
+#box1{
+    font-size: 50px;
+    text-align: center;
+    display:flex;
+    width: 270px;
+    height: 100px;
+    padding-top: 10px;
+    justify-content:space-evenly;
+    align-items: space-evenly;
+    background-color: white;
+}
+#A{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+}
+#B{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+    
+}
+#C{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+}
+#box2{
+    display:flex;
+    width: 270px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    justify-content:space-evenly;
+    align-items: space-evenly;
+    background-color: white;
+}
+#D{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+}
+#E{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+}
+#F{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+}
+#box3{
+    display:flex;
+    width: 270px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    justify-content:space-evenly;
+    align-items: space-between;
+    background-color: white;
+}
+#G{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+}
+#H{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+}
+#I{
+    width: 70px;
+    height: 70px;
+    background-color: darkgray;
+    border-radius: 5px;
+    border: 2px,black,solid;
+}

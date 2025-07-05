@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Coding Event Registration</title>
+    <link rel="stylesheet" href="event-form.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>College Coding Event Registration</h1>
+        <div class="event-info">
+            <b>CodeFest 2025</b>
+            <br>
+            <span>
+                <b>Date:</b> July 15, 2025 |
+                <b>Time:</b> 9:00 AM - 5:00 PM
+            </span>
+            <span>
+                <strong>Venue:</strong> Computer Science Building, Room 101
+            </span>
+        </div>
+        <form>
+            <label style="color: #1a237e;" class="required" for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+            <label style="color: #1a237e;" class="required" for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label style="color: #1a237e;" class="required" for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label style="color: #1a237e;" class="required" for="college">College/University</label>
+            <input type="text" id="college" name="college" placeholder="Enter your college name" required>
+
+            <label style="color: #1a237e;" class="required" for="year">Year of Study</label>
+            <select id="year" name="year" required>
+                <option value="">Select Year</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+                <option value="other">Other</option>
+            </select>
+
+            <div class="section-title">Programming Experience <span style="color:#d8000c">*</span></div>
+            <div class="radio-group">
+                <label><input type="radio" name="experience" value="Beginner" required> Beginner</label>
+                <label><input type="radio" name="experience" value="Intermediate"> Intermediate</label>
+                <label><input type="radio" name="experience" value="Advanced"> Advanced</label>
+            </div>
+
+            <div class="section-title">Programming Languages You Know (Select all that apply)</div>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="languages" value="Python"> Python</label>
+                <label><input type="checkbox" name="languages" value="C"> C</label>
+                <label><input type="checkbox" name="languages" value="C++"> C++</label>
+                <label><input type="checkbox" name="languages" value="Java"> Java</label>
+                <label><input type="checkbox" name="languages" value="JavaScript"> JavaScript</label>
+            </div>
+
+            <button type="submit" style="margin-top:18px; background:#3bb54a; color:#fff; border:none; padding:10px 24px; border-radius:5px; font-size:1em; cursor:pointer;">Register</button>
+        </form>
+    </div>
+</body>
+</html>
